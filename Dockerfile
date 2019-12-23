@@ -24,4 +24,7 @@ RUN apt-get update -y && apt-get install -y \
     unzip 
 RUN apt-get install wget
 RUN wget https://github.com/SyntekabioTools/HLAscan/releases/download/v2.1.4/hla_scan_r_v2.1.4
+RUN wget https://github.com/SyntekabioTools/HLAscan/releases/download/v2.0.0/dataset.zip
+RUn unzip dataset.zip
+
 
